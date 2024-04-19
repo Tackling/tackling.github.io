@@ -1,1 +1,127 @@
-"Hello World" 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitch Bot Commands</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+        }
+        h2 {
+            margin-top: 20px;
+        }
+        .command {
+            margin-bottom: 10px;
+        }
+        .command p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Twitch Bot Commands</h1>
+        
+        <div class="command">
+            <h2>Join / Leave:</h2>
+            <p>?Join - Join the user's channel.</p>
+            <p>?Part - Leave the user's channel.</p>
+        </div>
+
+        <div class="command">
+            <h2>Entertainment:</h2>
+            <p>?8ball [input] - Play a game of 8-ball with a user.</p>
+            <p>?Coinflip [choice] - Perform a coin flip.</p>
+            <p>?Dice [choice] - Roll a dice.</p>
+            <p>?Joke - Tell a random joke.</p>
+            <p>?Kanye - Share a random Kanye West quote.</p>
+            <p>?Fact - Share a random fact.</p>
+            <p>?Rps [choice] - Play a game of Rock-Paper-Scissors.</p>
+        </div>
+
+        <div class="command">
+            <h2>User Information:</h2>
+            <p>?Followage - Show how long a user has been following the streamer.</p>
+            <p>?Followage [username] - Show how long a user has been following the user.</p>
+            <p>?Subage - Show how you have been subbed to a streamer.</p>
+            <p>?Subage [username] - Show how long a user has been subbed to someone.</p>
+            <p>?Userid [userID] - Convert a user ID to a username.</p>
+            <p>?Iduser [username] - Convert a username to user ID.</p>
+            <p>?Accountage - Displays the account age of your Twitch account.</p>
+            <p>?Accountage [username] - Displays the account age of a Twitch user.</p>
+            <p>?Connectedto [username] - Displays the number of channels a user is connected to.</p>
+            <p>?Following - Displays the channels you are following.</p>
+            <p>?Following [username] - Display the channels a user is following.</p>
+            <p>?Mod [username] - Display the number of channels a user is moderating.</p>
+            <p>?Pfp [username] - Get the profile picture of a user.</p>
+            <p>?Banned [username] - Checks a ban status of a user.</p>
+            <p>?Baninfo [username] - Checks the ban history for a user (partners only).</p>
+            <p>?Whois [username] - Display a user's Display Name, User ID, Current Badge Equipped, Account Creation Date, Follower Count, Is Affiliate? and Is Partner?.</p>
+        </div>
+
+        <div class="command">
+            <h2>Channel Information:</h2>
+            <p>?Chatters - Display the number of people in chat.</p>
+            <p>?Followers - Display the follower count of the streamer.</p>
+            <p>?Followers [username] - Display the follower count of the user.</p>
+            <p>?Founders - Show who has the founder's badge of a channel.</p>
+            <p>?Mods - Display a list of mods for a streamer.</p>
+            <p>?Vip - Display a list of vips for a streamer.</p>
+            <p>?Tags - Display the tags of a stream.</p>
+            <p>?Viewcount - Display the view count of a streamer.</p>
+            <p>?Game - Displays the game the streamer is currently playing.</p>
+        </div>
+
+        <div class="command">
+            <h2>Interaction:</h2>
+            <p>?Hug [username] - Give someone in chat a virtual hug.</p>
+            <p>?Welcome [username] - Send a welcome message to a user.</p>
+            <p>?Compliment [username] - Compliment a user.</p>
+            <p>?Gpt [text] - Generates AI-powered text based on input.</p>
+        </div>
+
+        <div class="command">
+            <h2>Utility:</h2>
+            <p>?Commands - List all available bot commands.</p>
+            <p>?Language [text] - Identify the language of a word/sentence.</p>
+            <p>?Translate [text] - Translate a message to English.</p>
+            <p>?Weather [location] - Get the current weather conditions for a location you specify.</p>
+            <p>?Time [location] - Show the time in a location you provide.</p>
+            <p>?Title - Display the current title of a streamer.</p>
+            <p>?Uptime - Show how long a streamer has been live.</p>
+            <p>?Offline - Show how long it's been since a streamer has been live.</p>
+            <p>?Ping - Ping the bot.</p>
+            <p>?Channels - Displays the number of joined channels and channels where the bot is a moderator.</p>
+            <p>?Urban [text] - Look up a definition for a word using Urban Dictionary.</p>
+            <p>?Twitchstats - Displays the total number of accounts on Twitch.</p>
+            <p>?Checkuser [username] - Checks if a Twitch username is available or not.</p>
+            <p>?Morsecode [text] - Converts text to Morse code.</p>
+            <p>?Decodemorse &lt;morsecode&gt; - Converts Morse code to text.</p>
+            <p>?Owner - Displays information about the bot's owner.</p>
+        </div>
+
+        <div class="command">
+            <h2>Bot Control (Admin-Only):</h2>
+            <p>?Rejoin [username] - Rejoin a user's channel.</p>
+            <p>?Rejoin all - Rejoin all user's channel.</p>
+            <p>?Reloadcmds - Reload the command list.</p>
+            <p>?Shutdown - Shut the bot down.</p>
+        </div>
+    </div>
+</body>
+</html>
